@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_photographer"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="150dp"
+        android:layout_height="165dp"
+        android:elevation="2dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        tools:ignore="InefficientWeight,ObsoleteLayoutParam,RtlHardcoded,UnusedAttribute"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="6dp"
+        android:layout_weight="0.03">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="141dp"
+            android:layout_height="165dp">
+
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_photographer_detail"
+                android:layout_gravity="bottom"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                tools:ignore="HardcodedText,MissingConstraints,UnknownId"
+                app:layout_constraintRight_toRightOf="@+id/iamge_photographer"
+                app:layout_constraintTop_toBottomOf="@+id/iamge_photographer"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:layout_constraintVertical_bias="0.29"
+                app:layout_constraintLeft_toLeftOf="@+id/iamge_photographer"
+                app:layout_constraintHorizontal_bias="0.0" />
+
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="131dp"
+                android:layout_marginTop="2dp"
+                app:srcCompat="@drawable/login"
+                android:id="@+id/image_photographer"
+                tools:ignore="ContentDescription,MissingConstraints"
+                android:adjustViewBounds = "true"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

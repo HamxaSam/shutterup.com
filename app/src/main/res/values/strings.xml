@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ShutterUp</string>
+    <string name="title_activity_login_activity">login_activity</string>
+</resources>
