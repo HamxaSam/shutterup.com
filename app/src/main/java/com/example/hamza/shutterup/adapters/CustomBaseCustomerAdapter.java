@@ -44,7 +44,7 @@ public class CustomBaseCustomerAdapter extends RecyclerView.Adapter<CustomBaseCu
                 switch (position){
                     case 0:
                     //    Intent intent = new Intent(activity,)
-                        Toast.makeText(activity,"click",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity,"clicked",Toast.LENGTH_SHORT).show();
                     case 1:
 
                         Toast.makeText(activity,"click",Toast.LENGTH_SHORT).show();
