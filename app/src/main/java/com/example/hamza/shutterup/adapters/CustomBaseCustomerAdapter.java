@@ -47,7 +47,7 @@ public class CustomBaseCustomerAdapter extends RecyclerView.Adapter<CustomBaseCu
                         Toast.makeText(activity,"clicked",Toast.LENGTH_SHORT).show();
                     case 1:
 
-                        Toast.makeText(activity,"click",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity,"btn click",Toast.LENGTH_SHORT).show();
                         break;
                     case 2:
 
