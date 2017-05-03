@@ -1,7 +1,7 @@
 package com.example.hamza.shutterup.listOptionSelect;
 
-import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -17,7 +17,7 @@ import com.example.hamza.shutterup.modals.Photographer;
 
 import java.util.ArrayList;
 
-public class potographer extends Fragment  {
+public class potographer extends Fragment {
     RecyclerView recyclerView_photographer;
     CustomBasePhotographerAdapter adapter;
     ArrayList<Photographer> ArrayListPhotographer;
