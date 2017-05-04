@@ -43,20 +43,16 @@ public class CustomBaseCustomerAdapter extends RecyclerView.Adapter<CustomBaseCu
             public void onClick(View view) {
                 switch (position){
                     case 0:
-                    //    Intent intent = new Intent(activity,)
                         Toast.makeText(activity,"clicked",Toast.LENGTH_SHORT).show();
                     case 1:
-
                         Toast.makeText(activity,"btn click",Toast.LENGTH_SHORT).show();
                         break;
                     case 2:
-
                         Toast.makeText(activity,"click",Toast.LENGTH_SHORT).show();
                     case 3:
                         Intent intent = new Intent(activity, Form.class);
                         intent.putExtra("login","splash activity");
                         activity.startActivity(intent);
-                        Toast.makeText(activity,"click",Toast.LENGTH_SHORT).show();
                         break;
                 }
             }
